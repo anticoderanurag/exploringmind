@@ -1,0 +1,182 @@
+*{
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+body{
+  background-image: url("back.jpeg");
+  background-repeat: no-repeat;
+background-size: 1590px 1391px;
+}
+.h{
+  font-family: 'Abril Fatface', cursive;
+  font-size: 110px;
+  position: absolute;
+  top: 24px;
+  left: 365px;
+  color: green;
+  background-color: #f9ed69;
+  border: 8px solid red;
+  border-radius: 9px;
+}
+.from{
+  background-color: #00adb5;
+  margin-left: 330px;
+  margin-top: 2px;
+  padding-left: 30px;
+  padding-top: 0px;
+  padding-bottom: 2px;
+  height: 660px;
+  position: absolute;
+  left:40px;
+  top:270px;
+  width: 680px;
+height: 820px;
+  border: 3px solid;
+  border-radius: 30px;
+  font-size: 27px;
+  font-family: Lucida Fas;
+  color: black;
+}
+.reg{
+  font-size: 60px;
+  margin-left: 80px;
+  margin-top: 40px;
+  font-family: Algerian;
+  color: #700961;
+}
+.first-name,.last-name{
+  height: 25px;
+  width: 149px;
+  border-radius: 10px;
+  border: 3px solid;
+  font-size: 20px
+  font-family: Lucida Fax;
+  padding: 5px;
+  paddin-left: 10px;
+
+  border-color: skyblue;
+
+}
+.happy{
+  height: 25px;
+  width: 149px;
+  border-radius: 10px;
+  border: 3px solid;
+  font-size: 20px
+  font-family: Lucida Fax;
+  padding: 5px;
+  paddin-left: 10px;
+
+  border-color: skyblue;
+}
+.father-name,.mother-name{
+  height: 25px;
+  width: 280px;
+  border-radius: 10px;
+  border: 3px solid;
+  font-size: 20px
+  font-family: Lucida Fax;
+  padding: 5px;
+  paddin-left: 10px;
+  border-color: skyblue;
+
+}
+.age,.religion{
+  height: 25px;
+  width: 100px;
+  border-radius: 10px;
+  border: 3px solid;
+  font-size: 20px
+  font-family: Lucida Fax;
+  padding: 5px;
+  paddin-left: 10px;
+  border-color: skyblue;
+
+}
+
+
+.submit2{
+  position: relative;
+  top: 100px;
+  left: 100px;
+  font-size: 39px;
+  padding: 12px 55px;
+  font-family: 'Berkshire Swash', cursive;
+  border-radius: 38px;
+  background-color: green;
+  color: white;
+}
+.submit2:hover{
+  position: relative;
+  top: 105px;
+  left: 115px;
+  font-size: 39px;
+  padding: 12px 55px;
+  font-family: 'Berkshire Swash', cursive;
+  border-radius: 38px;
+  background-color: blue;
+  color: red;
+}
+
+a.blue-button{
+  text-decoration: none;
+  font-family: 'Modak', cursive;
+  font-size: 40px;
+  border-radius: 12px;
+  background-size: 15px;
+  border-color: green;
+  background-color: red;
+  padding: 12px 55px;
+  position: relative;
+  top: 150px;
+left: 790px;
+  color: white;
+
+}
+a.blue-button:hover{
+  text-decoration: none;
+  font-family: 'Modak', cursive;
+  font-size: 43px;
+  border-radius: 12px;
+  background-size: 15px;
+  border: green;
+  background-color: blue;
+  padding: 14px 59px;
+  position: relative;
+  top:160px;
+left: 799px;
+  color: gold;
+  box-shadow:
+  0px 5px 50px 0px #15f4ee inset,
+  0px 5px 50px 0px #15f4ee,
+  0px 5px 50px 0px #15f4ee inset,
+  0px 5px 50px 0px #15f4ee;
+  text-shadow:
+  0px 0px 5px #15f4ee inset,
+  0px 5px 50px 0px #15f4ee;
+}
+a.blue-button:focus{
+  color: purple;
+}
+.address{
+  border: 3px;
+  border-radius: 13px;
+  padding: 5px;
+  paddin-left: 10px;
+  border-color: skyblue;
+}
+.real{
+  color: red;
+font-size: 28px;
+position: absolute;
+top: 830px;
+left: 29px;
+background: #000000d9;
+border: 5px solid;
+border-radius: 12px;
+padding: 12px 20px;
+}
+.green{
+  color: green;
+}

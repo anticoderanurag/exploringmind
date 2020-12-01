@@ -1,0 +1,188 @@
+*{
+  margin: 0px 0px;
+}
+body{
+  background: url("abhi.png");
+  background-repeat: no-repeat;
+  background-size: 593px 1234px;
+  background-position: 447px 128px;
+
+
+}
+.box {
+  width: 97%;
+  height: 90px;
+  background-color: #3fc1c9;
+  margin-top: 0.1px;
+  margin-right: 90px;
+  border: 17px;
+  border-color: solid grey;
+  border-style: outset;
+}
+h1{
+  font-size: 54px;
+  color: red;
+  font-family: 'Goldman', cursive;
+  margin: 11px 88px;
+}
+.box1{
+  width: 450px;
+  height: 150px;
+  background-color: #bad7df;
+  border: 12px;
+  border-color: red;
+  border-radius: 17px;
+  border-style: solid;
+  position: relative;
+  left: 95px;
+  top: 36px;
+
+}
+.one{
+  font-size: 32px;
+  font-style: italic;
+  margin: 14px 98px;
+  color: #700961;
+
+ }
+ .box2{
+   width: 450px;
+   height: 150px;
+   background-color: #bad7df;
+   border: 12px;
+   border-color: #283c63;
+   border-radius: 17px;
+   border-style: solid;
+   position: relative;
+   left: 95px;
+   top: 130px;
+
+}
+.two{
+  font-size: 32px;
+  font-style: italic;
+  margin: 0.3px 98px;
+  color: #1e2022;
+
+}
+.box3{
+  width: 450px;
+  height: 150px;
+  background-color: #bad7df;
+  border: 12px;
+  border-color: #ff165d;
+  border-radius: 17px;
+  border-style: solid;
+  position: relative;
+  left: 95px;
+  top: 217px;
+
+}
+.three{
+ font-size: 32px;
+ font-style: italic;
+ margin: 15px 98px;
+ color: #ff165d;
+
+}
+
+.box4{
+  width: 450px;
+  height: 150px;
+  background-color: #bad7df;
+  border: 12px;
+  border-color: #ff165d;
+  border-radius: 17px;
+  border-style: solid;
+  position: relative;
+  left: 900px;
+  bottom: 484px;
+
+}
+.four{
+ font-size: 32px;
+ font-style: italic;
+ margin: 15px 98px;
+ color: #ff165d;
+
+}
+
+
+.box5{
+  width: 450px;
+  height: 150px;
+  background-color: #e8f1f5;
+  border: 12px;
+  border-color:  #303841;
+  border-radius: 17px;
+  border-style: solid;
+  position: relative;
+  left: 900px;
+  bottom: 390px;
+
+}
+.five{
+ font-size: 32px;
+ font-style: italic;
+ margin: 1px 98px;
+ color: #33ff36;
+
+}
+
+.box6{
+  width: 450px;
+  height: 150px;
+  background-color: #bad7df;
+  border: 12px;
+  border-color: red;
+  border-radius: 17px;
+  border-style: solid;
+  position: relative;
+  left: 900px;
+  bottom: 300px;
+
+}
+.six{
+ font-size: 32px;
+ font-style: italic;
+ margin: 15px 98px;
+ color: #700961;
+
+}
+a.blue-button{
+  text-decoration: none;
+  font-family: 'Modak', cursive;
+  font-size: 40px;
+  border-radius: 12px;
+  background-size: 15px;
+  border-color: green;
+  background-color: red;
+  padding: 12px 55px;
+  position: relative;
+  bottom: 268px;
+  left: 16px;
+  color: white;
+
+}
+a.blue-button:hover{
+  text-decoration: none;
+  font-family: 'Modak', cursive;
+  font-size: 43px;
+  border-radius: 12px;
+  background-size: 15px;
+  border: green;
+  background-color: blue;
+  padding: 14px 59px;
+  position: relative;
+  bottom: 270px;
+  left: 19px;
+  color: gold;
+  box-shadow:
+  0px 5px 50px 0px #15f4ee inset,
+  0px 5px 50px 0px #15f4ee,
+  0px 5px 50px 0px #15f4ee inset,
+  0px 5px 50px 0px #15f4ee;
+  text-shadow:
+  0px 0px 5px #15f4ee inset,
+  0px 5px 50px 0px #15f4ee;
+}

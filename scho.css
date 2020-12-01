@@ -1,0 +1,112 @@
+*{
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+body{
+  background: url("schi.jpeg");
+  background-repeat: no-repeat;
+  background-size: 460px 500px;
+  background-position: 509px 205px;
+  border: 4px transparent white;
+  border-radius: 12px;
+
+}
+.h{
+  font-family: 'Abril Fatface', cursive;
+  font-size: 110px;
+  position: absolute;
+  top: 24px;
+  left: 280px;
+  color: red;
+  background-color: #f9ed69;
+  border: 8px solid green;
+  border-radius: 9px;
+}
+.f{
+  font-size: 45px;
+  line-height: 1.6;
+  letter-spacing: 0.066;
+  font-family: 'Merienda One', cursive;
+  position: absolute;
+  top: 270px;
+  left: 30px;
+  color: #3800ff;
+  background-color: #fffb00;
+}
+.t{
+  font-size: 45px;
+  position: absolute;
+  top: 270px;
+  left: 1000px;
+  color: #3800ff;
+  background-color: #fffb00;
+  line-height: 1.6;
+  letter-spacing: 0.066;
+  font-family: 'Merienda One', cursive;
+}
+.ashu{
+  color: red;
+  position: absolute;
+top: 390px;
+left: 1040px;
+font-size: 40px;
+font-family: cursive;
+background-color: #2ff5ff3d;
+line-height: 1.6;
+letter-spacing: 0.019em;
+font-style: normal;
+}
+.anu{
+  color: red;
+  font-size: 40px;
+  font-family: cursive;
+  background-color: #2ff5ff3d;
+  line-height: 1.6;
+  letter-spacing: 0.019em;
+  font-style: normal;
+  position: absolute;
+top: 380px;
+left: 70px;
+}
+a.blue-button{
+  text-decoration: none;
+  font-family: 'Modak', cursive;
+  font-size: 40px;
+  border-radius: 12px;
+  background-size: 15px;
+  border-color: green;
+  background-color: red;
+  padding: 12px 55px;
+  position: relative;
+  top: 144px;
+left: 1222px;
+  color: white;
+
+}
+a.blue-button:hover{
+  text-decoration: none;
+  font-family: 'Modak', cursive;
+  font-size: 43px;
+  border-radius: 12px;
+  background-size: 15px;
+  border: green;
+  background-color: blue;
+  padding: 14px 59px;
+  position: relative;
+  top: 149px;
+left: 1229px;
+  color: gold;
+  box-shadow:
+  0px 5px 50px 0px #15f4ee inset,
+  0px 5px 50px 0px #15f4ee,
+  0px 5px 50px 0px #15f4ee inset,
+  0px 5px 50px 0px #15f4ee;
+  text-shadow:
+  0px 0px 5px #15f4ee inset,
+  0px 5px 50px 0px #15f4ee;
+}
+a.blue-button:focus{
+  color: purple;
+}

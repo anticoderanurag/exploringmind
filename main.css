@@ -1,0 +1,185 @@
+*{
+  margin: 0;
+  padding: 0;
+  border: 0;
+  list-style:none;
+  text-decoration:none;
+  box-sizing: border-box;
+}
+body{
+  background-color: d4a5a5;
+}
+.pic{
+  width: 100%;
+  height: 430px;
+}
+.hit{
+  font-family: 'Niconne', cursive;
+text-align: center;
+  font-size: 120px;
+  color: #fa1616;
+  font-weight: 2800;
+position: absolute;
+top: 550px;
+left: 111px;
+
+}
+.para{
+  position: absolute;
+  top: 800px;
+  left: 266px;
+  color: black;
+  font-size: 30px;
+  font-weight: 600;
+}
+.para1{
+  line-height: 1.4;
+letter-spacing: 0.06em;
+font-weight: 500;
+font-style: italic;
+  color: black;
+position: absolute;
+top: 900px;
+left: 330px;
+font-size: 22px;
+}
+.para2{
+  line-height: 1.4;
+letter-spacing: 0.06em;
+font-weight: 500;
+font-style: italic;
+  color: black;
+position: absolute;
+top: 900px;
+left: 800px;
+font-size: 22px;
+}
+.fit{
+  color: white;
+  position: absolute;
+top: 1220px;
+left: 45px;
+font-size: 42px;
+background-color: green;
+padding: 6px 66px;
+border: 4px solid green;
+border-radius: 19px;
+font-family: 'Courgette', cursive;
+}
+.fit2{
+  color: white;
+  position: absolute;
+top: 1420px;
+left: 45px;
+font-size: 42px;
+background-color: red;
+padding: 6px 66px;
+border: 4px solid red;
+border-radius: 19px;
+font-family: 'Courgette', cursive;
+}
+.fit3{
+color: white;
+position: absolute;
+top: 1620px;
+left: 45px;
+font-size: 42px;
+background-color: blue;
+padding: 6px 66px;
+border: 4px solid blue;
+border-radius: 19px;
+font-family: 'Courgette', cursive;
+}
+.king{
+  color: green;
+  position: absolute;
+  top: 1900px;
+  left: 130px;
+  font-size: 37px;
+font-family: 'Piedra', cursive;
+}
+
+nav{
+  height: 80px;
+  width: 100%;
+  background-color:#0082e6;
+  float: right;
+position: absolute;
+top: 430px;
+}
+.logo{
+  color: red;
+  font-family: monospace;
+  font-size: 45px;
+  line-height: 80px;
+  font-weight: bold;
+  margin: 0px 17px;
+}
+nav ul{
+  float: right;
+  margin-right: 20px;
+
+}
+nav ul li{
+  display: inline-block;
+  line-height: 80px;
+  margin: 0 5px;
+}
+nav ul li a{
+  color: white;
+  font-size: 21px;
+  padding: 7px 13px;
+  border-radius: 3px;
+  text-transform: uppercase;
+}
+a:hover{
+  background-color: red;
+
+}
+a:focus{
+  color: purple;
+}
+
+.checkbtn{
+  font-size: 30px;
+  color: white;
+  float: right;
+  line-height: 80px;
+  margin-right: 40px;
+  curser: pointer;
+  display: none;
+}
+#check{
+  display: none;
+}
+@media (max-width: 952){
+  label.logo{
+    font-size: 30px;
+    padding-left: 50px;
+}
+nav ul li a{
+  font-size: 16px;
+}
+@media (max-width: 858){
+  .checkbtn{
+    display: block;
+  }
+  ul{
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    background: #2c3e50;
+    top: 80px;
+
+    transition: all .5s;
+    text-align: center;
+  }
+  nav ul li{
+    display: block;
+  }
+  nav ul li a{
+    font-size: 20px;
+  }
+  #check:checked ~ ul{
+    left: 0;
+  }

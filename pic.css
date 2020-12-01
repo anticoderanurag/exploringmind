@@ -1,0 +1,46 @@
+*{
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+a.blue-button{
+  text-decoration: none;
+  font-family: 'Modak', cursive;
+  font-size: 40px;
+  border-radius: 12px;
+  background-size: 15px;
+  border-color: green;
+  background-color: red;
+  padding: 12px 55px;
+  font-weight: 900;
+  position: relative;
+  bottom: 75px;
+  left: 50px;
+color: white;
+}
+a.blue-button:hover{
+  text-decoration: none;
+  font-family: 'Modak', cursive;
+  font-size: 47px;
+  border-radius: 12px;
+  background-size: 15px;
+  border: green;
+  background-color: blue;
+  padding: 14px 59px;
+  font-weight: 930;
+  position: relative;
+  bottom: 78px;
+  left: 55px;
+color: white;
+  box-shadow:
+  0px 5px 50px 0px #15f4ee inset,
+  0px 5px 50px 0px #15f4ee,
+  0px 5px 50px 0px #15f4ee inset,
+  0px 5px 50px 0px #15f4ee;
+  text-shadow:
+  0px 0px 5px #15f4ee inset,
+  0px 5px 50px 0px #15f4ee;
+}
+a.blue-button:focus{
+  color: purple;
+}

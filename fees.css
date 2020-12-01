@@ -1,0 +1,188 @@
+*{
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+.fees{
+  font-family: 'Abril Fatface', cursive;
+  font-size: 110px;
+  position: absolute;
+  top: 24px;
+  left: 280px;
+  color: red;
+  background-color: #f9ed69;
+  border: 8px solid blue;
+  border-radius: 9px;
+}
+.box1{
+  width: 450px;
+  height: 150px;
+  background-color: #bad7df;
+  border: 12px;
+  border-color: red;
+  border-radius: 17px;
+  border-style: solid;
+  position: relative;
+  left: 95px;
+top: 270px;
+
+}
+.one{
+  font-size: 32px;
+  font-style: italic;
+  margin: 14px 98px;
+  color: #700961;
+
+ }
+ .box2{
+   width: 450px;
+   height: 150px;
+   background-color: #bad7df;
+   border: 12px;
+   border-color: #283c63;
+   border-radius: 17px;
+   border-style: solid;
+   position: relative;
+   left: 95px;
+   top: 380px;
+
+}
+.two{
+  font-size: 32px;
+  font-style: italic;
+  margin: 19px 98px;
+  color: #1e2022;
+
+}
+.box3{
+  width: 450px;
+  height: 150px;
+  background-color: #bad7df;
+  border: 12px;
+
+  border-radius: 17px;
+  border-style: solid;
+  position: relative;
+  left: 95px;
+
+  border-color: #ff5816;
+top: 490px;
+
+}
+.three{
+ font-size: 32px;
+ font-style: italic;
+ margin: 15px 98px;
+ color: #ff165d;
+
+}
+
+.box4{
+  width: 450px;
+  height: 150px;
+  background-color: #bad7df;
+  border: 12px;
+
+  border-radius: 17px;
+  border-style: solid;
+  position: relative;
+  left: 900px;
+
+  border-color: #b616ff;
+  bottom: 255px
+}
+.four{
+ font-size: 32px;
+ font-style: italic;
+ margin: 15px 98px;
+ color: #ff165d;
+
+}
+
+
+.box5{
+  width: 450px;
+  height: 150px;
+  background-color: #e8f1f5;
+  border: 12px;
+
+  border-radius: 17px;
+  border-style: solid;
+  position: relative;
+  left: 900px;
+
+  border-color: #344130;
+bottom: -150px;
+
+}
+.five{
+ font-size: 32px;
+ font-style: italic;
+ margin: 14px 105px;
+ color: #33ff36;
+
+}
+
+.box6{
+  width: 450px;
+  height: 150px;
+  background-color: #bad7df;
+  border: 12px;
+
+  border-radius: 17px;
+  border-style: solid;
+  position: relative;
+  left: 900px;
+
+  border-color: #50ff00;
+bottom: 320px;
+
+}
+.six{
+ font-size: 32px;
+ font-style: italic;
+ margin: 15px 98px;
+ color: #700961;
+
+}
+a.blue-button{
+  text-decoration: none;
+  font-family: 'Modak', cursive;
+  font-size: 40px;
+  border-radius: 12px;
+  background-size: 15px;
+  border-color: green;
+  background-color: red;
+  padding: 12px 55px;
+  position: relative;
+  top: 60px;
+left: 1100px;
+  color: white;
+
+}
+a.blue-button:hover{
+  text-decoration: none;
+  font-family: 'Modak', cursive;
+  font-size: 43px;
+  border-radius: 12px;
+  background-size: 15px;
+  border: green;
+  background-color: blue;
+  padding: 14px 59px;
+  position: relative;
+  top: 63px;
+left: 1100px;
+  color: gold;
+  box-shadow:
+  0px 5px 50px 0px #15f4ee inset,
+  0px 5px 50px 0px #15f4ee,
+  0px 5px 50px 0px #15f4ee inset,
+  0px 5px 50px 0px #15f4ee;
+  text-shadow:
+  0px 0px 5px #15f4ee inset,
+  0px 5px 50px 0px #15f4ee;
+}
+a.blue-button:focus{
+  color: purple;
+}
